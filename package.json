@@ -1,0 +1,22 @@
+{
+  "name": "reason-game-of-life",
+  "scripts": {
+    "start": "bsb -make-world -w",
+    "build": "bsb -make-world",
+    "bundle": "webpack -w",
+    "clean": "bsb -clean-world"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "reason-react": "^0.4.0"
+  },
+  "devDependencies": {
+    "bs-platform": "^4.0.0",
+    "webpack": "^4.1.1",
+    "webpack-cli": "^2.0.10",
+    "webpack-livereload-plugin": "^2.1.1"
+  }
+}

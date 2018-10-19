@@ -1,0 +1,236 @@
+commit af43748fdae5b1c30e8a58890cb049a95d59fcc4
+Author: Matthias Kern <matthiaskern@users.noreply.github.com>
+Date:   Sat May 19 11:21:14 2018 +0300
+
+    Add LICENSE
+
+commit 39e6e2ac1a870709490c8666a22347efa93488c8
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Wed May 16 20:33:26 2018 +0300
+
+    implement should component update
+
+commit fd030dec0166dfdf7cc807f271616ca5d3ab91b4
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Fri May 4 13:39:32 2018 +0300
+
+    remove unnecessary index filter
+
+commit b28e07d93d13f2089d7f98341beb4e1ceb242b6f
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu May 3 11:54:47 2018 +0300
+
+    simplify alive/dead decision making
+
+commit 52794bf65bc9ee4c098c35fff08a6ccecfa3f305
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Sat Apr 28 18:31:40 2018 +0300
+
+    fix readme type
+
+commit fe9562c8d012088d56095bcabe9b91fe9a59df0e
+Merge: 3f8af14 9a5f1c5
+Author: Matthias Kern <matthiaskern@users.noreply.github.com>
+Date:   Thu Apr 26 10:43:32 2018 +0300
+
+    Merge pull request #1 from matthiaskern/upgrade-to-reason-react-04
+    
+    upgrade to reason-react using the migration script
+
+commit 9a5f1c5d89a612b5c9e8c345ed63ae764139f1c4
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Apr 26 10:40:55 2018 +0300
+
+    upgrade to reason-react using the migration script
+
+commit 3f8af14cf98c083276603da6055d8d41d29bc764
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Tue Apr 24 22:56:15 2018 +0300
+
+    fix main width to 80%;
+
+commit 999bb70793a28b558d82aea1460a4fd44c447b5e
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Tue Apr 24 21:59:49 2018 +0300
+
+    make styles more responsive, adjust initial size on viewport
+
+commit a9198343809c1f7afcca88f1ac51b53d94634b13
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 23 19:20:19 2018 +0300
+
+    improve style of game canvas
+
+commit fbcbc908304841a599d3fb0d05626fe4b6719714
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 16 22:43:41 2018 +0300
+
+    replace setTimeout with requestAnimationFrame; improve button styles
+
+commit cb8ef572b859a7aba7ce0bd51c66dd48ec262edf
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 16 20:04:44 2018 +0300
+
+    improve styles; add github link
+
+commit 2ed79f8da48d4b07624e94fac967940c5766ee2e
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 16 19:50:56 2018 +0300
+
+    add header; improve styles
+
+commit 4c634057686ce9d45f5f85ac48c4a78ace663a7f
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 16 19:23:53 2018 +0300
+
+    add clear; unify start/stop to toggle
+
+commit 31d33d12abe8846101062ed98ae33a292cd5c919
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Sat Apr 14 20:40:28 2018 +0300
+
+    fix findCell bug with wrong indexes, use correct conway rules
+
+commit 89ca68e1cb1873c3fb0614228fb5b53a06561fc4
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Sat Apr 14 20:21:49 2018 +0300
+
+    fix toggle
+
+commit e13dddb11312c23388b3e6de10ca87dcf2a70991
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Sat Apr 14 20:18:23 2018 +0300
+
+    add set timeout evolution
+
+commit f633294b53398fe352c056c4d7c07e63c82dabc7
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Sat Apr 14 19:20:40 2018 +0300
+
+    fix findCell code, add evolution
+
+commit eff930085582fec58cf868aae67bea3139e8bcc1
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Apr 12 19:17:11 2018 +0300
+
+    add find neighbors code
+
+commit 379c38cf91987db2f4b45d46b37d3f223dfdec28
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 20:17:42 2018 +0900
+
+    add dummy start, stop actions
+
+commit 10d483b9557ecb0ba4db105406125ffd7af4ba5c
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 18:27:04 2018 +0900
+
+    add find cell
+
+commit 3e51193dd5b5719ae509cc613782f357fb9ee009
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 16:58:45 2018 +0900
+
+    add actual toggle functionality, stubs for other game logic
+
+commit e3f2609b686a10fca38834bcf98d5327d2ffcaf1
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 16:24:08 2018 +0900
+
+    improve array map readability by using module syntax
+
+commit a300ae45b4492cc88d4bb38bcc0a4bb2126525f8
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 16:22:48 2018 +0900
+
+    move game logic to own module
+
+commit 7ac1bed2e20be496db4f31e659314ebd74e59d6a
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Apr 9 16:06:36 2018 +0900
+
+    generate cells and propagate cell position properly
+
+commit a6637beaa2cbc6ab87f484e3e4a9937689441e48
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Fri Mar 30 15:44:39 2018 +0900
+
+    improve pattern matching with default case
+
+commit 361dcc473298f4016ce9dcdb12df301f576dbad4
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Fri Mar 30 12:16:27 2018 +0900
+
+    generate initialState randomly:
+
+commit 815a2425fd09115fc2b60dd68dd9fdced4355c63
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Fri Mar 30 11:54:07 2018 +0900
+
+    add bsb.lock to gitignore
+
+commit 85d4dc651b16f9f51b4cf5756dcdf6e3013b46f2
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Tue Mar 20 20:12:42 2018 +0200
+
+    generate intial cells correctly
+
+commit 60d4153ae22782a30a6bc39c848566bf9feea268
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Tue Mar 20 20:09:40 2018 +0200
+
+    type all cells
+
+commit 071f724fa72fd427d9860dcd45842da9dd6bc779
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Tue Mar 20 19:25:57 2018 +0200
+
+    rename canvas, move board size to be prop
+
+commit 16165fdd68dddaccd04fae760e76d72a5fd68e22
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Mon Mar 19 19:43:44 2018 +0200
+
+    improve board, add utils
+
+commit f358d53ae5a3a318dd1546466215187c0cacfc1c
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 15 19:17:55 2018 +0200
+
+    generate cells, add some styles
+
+commit 5ecdde003e26ffb6d4c5f60aafbc1f819e6eb76a
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 15 17:24:21 2018 +0200
+
+    set up basic layout and components
+
+commit 23c8678a5b0ee6f3554a39baa3d14b646920cc5a
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 15 17:07:47 2018 +0200
+
+    add basic styles and modern-normalize css reset
+
+commit 89c1ef038d9bc396e0affbb71806464cac50249c
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 8 19:29:55 2018 +0200
+
+    add readme
+
+commit 7aab40397653dbbf9aed0961ff5faf0cec9da79e
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 8 19:25:55 2018 +0200
+
+    Add hello world
+
+commit 8d80895a094727574374e6f166e6b76006c04a34
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 8 19:22:24 2018 +0200
+
+    add webpack
+
+commit 2474dfb365c4ca07cc182d55ec20c9d080f876eb
+Author: Matthias Kern <matthias_kern@posteo.net>
+Date:   Thu Mar 8 19:18:54 2018 +0200
+
+    init
