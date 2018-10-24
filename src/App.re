@@ -92,22 +92,22 @@ let make = _children => {
     <main>
       <Header />
       <Controls
-        onRandom=(() => self.send(Random))
-        onTogglePlay=(togglePlay(self))
-        isPlaying=self.state.isPlaying
-        onClear=(() => self.send(Clear))
-        generation=self.state.generation
+        onRandom={() => self.send(Random)}
+        onTogglePlay={togglePlay(self)}
+        isPlaying={self.state.isPlaying}
+        onClear={() => self.send(Clear)}
+        generation={self.state.generation}
       />
       <Board
-        cells=self.state.cells
-        onToggle=((y, x) => self.send(ToggleCell((x, y))))
+        cells={self.state.cells}
+        onToggle={(y, x) => self.send(ToggleCell((x, y)))}
       />
       <footer>
         <a
           href="https://github.com/matthiaskern/reason-game-of-life"
-          style=(ReactDOMRe.Style.make(~float="right", ~fontSize="17px", ()))
+          style={ReactDOMRe.Style.make(~float="right", ~fontSize="17px", ())}
           target="_blank">
-          (Utils.strE("Github"))
+          {Utils.strE("Github")}
         </a>
       </footer>
     </main>,
